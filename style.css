@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-fonts {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles start */
+.display-flex {
+    display: flex;
+}
+.btn-main {
+    width: 197px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+.btn-color1 {
+    background: rgb(254, 163, 1);
+}
+.btn-color2 {
+    background: rgb(17, 17, 17);
+}
+
+/* shared styles end */
+
+/* header related styles start */
+.header-bg {
+    color: rgb(242, 242, 242) ;
+    border: 2px solid black;
+}
+.header-section {
+    margin: 0 auto;
+    max-width: 80%;
+}
+.header-content {
+    width: 640px;
+}
+.header-title {
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+    gap: 24;
+    /* line-height: 61px; */
+}
+#empowering {
+    color: rgb(254, 163, 1);
+}
+#vision {
+    color: rgb(1, 172, 253);
+}
+.header-description {
+    color: rgb(17, 17, 17);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.header-img {
+    width: 468px;
+    margin-left: 415px;
+}
+
+/* header related styles end */
+
+/* nav related style start */
+.brand-title {
+    color: rgb(32, 32, 32);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 11px;
+}
+.brand-img {
+    width: 3.8rem;
+    height: 3.8rem;
+}
+
+.nav-links{
+    list-style: none;
+    gap: 2rem;
+}
+.navbar {
+    margin: 0 auto;
+    max-width: 80%;
+    gap: 186px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items1 {
+    color: rgb(254, 163, 1);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.nav-items2 {
+    color: rgb(1, 172, 253);;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.nav-items3 {
+    color: rgb(5, 212, 223);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.nav-items4 {
+    color: rgb(93, 88, 239);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+/* nav related styles end */
+
+/* main related styles start */
+
+.main-bg {
+    background-image: url('assets/bg.png');
+    border: 2px solid red;
+}
+.main-section-1 {
+    max-width: 80%;
+    margin: 0 auto;
+    border: 1px solid teal;
+}
+
+.main-title-1 {
+    color: rgb(0, 0, 0);
+    font-size: 2.9rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card-container {
+    justify-content: space-around;
+}
+.card-1 {
+    border: 2px solid black;
+    width: 367.8px;
+    height: 476.78px;
+    border-radius: 18.86px;
+}
+.card-2 {
+    width: 367.8px;
+    height: 476.78px;
+    border: 2px solid black;
+    border-radius: 18.86px;
+}
+.card-3 {
+    width: 367.8px;
+    height: 476.78px;
+    border: 2px solid black;
+    border-radius: 18.86px;
+}
+.main-section-2 {
+    max-width: 80%;
+}
+
+/* main related styles end */
