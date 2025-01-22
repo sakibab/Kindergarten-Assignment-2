@@ -12,6 +12,21 @@
   font-style: normal;
 }
 
+.marquee-style {
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px 0 20px 0;
+    cursor: pointer;
+}
+.apply-now {
+    font-size: 30px;
+    font-weight: 900;
+    color: red;
+    background-color: black;
+    padding: 8px;
+}
+
 /* shared styles start */
 .display-flex {
     display: flex;
@@ -74,7 +89,6 @@
     font-weight: 500;
     top: -1.43rem;
     left: 1.9rem; 
-    cursor: pointer;
 }
 .title-card-small {
     color: rgb(0, 0, 0);
@@ -88,9 +102,9 @@
 /* shared styles end */
 
 /* header related styles start */
-.header-content *{
+/* .header-content *{
     margin-bottom: 30px;
-}
+} */
 .header-bg {
     color: rgb(242, 242, 242) ;
 }
@@ -98,12 +112,15 @@
     margin: 0 auto;
     max-width: 80%;
 }
+.header-title, .header-description {
+    margin-bottom: 30px;
+}
 .header-title {
     padding-top: 140px ;
     font-size: 3.8rem;
     font-weight: 700;
     color: rgb(17, 17, 17);
-    gap: 24;
+    
     /* line-height: 61px; */
 }
 #empowering {
@@ -137,6 +154,9 @@
 .brand-img {
     width: 3.8rem;
     height: 3.8rem;
+}
+.nav{
+    padding-top: 40px;
 }
 
 .nav-links{
@@ -521,6 +541,7 @@
 .footer-div2 ul{
    margin: 0;
    padding: 0;
+   cursor: pointer;
 }
 .footer-div2 ul li{
 list-style: none;
@@ -544,6 +565,7 @@ padding-bottom: 20px;
 .footerIcon{
     display: flex;
     gap: 16px;
+    cursor: pointer;
 }
 .footer-div1-description{
     padding-top: 20px;
@@ -604,6 +626,9 @@ padding-bottom: 20px;
     text-align: center;
 
 }
+/* .card-description br{
+display: none;
+} */
 
 /* section2 */
 
