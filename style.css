@@ -326,11 +326,12 @@
     background: black;
 }
 .footer-section {
+    /* width: 75%; */
     padding-top: 6.5rem;
     padding-bottom: 7rem;
-    text-align: center;
     justify-content: center;
     gap: 340px;
+    margin: 0 auto;
 }
 .footer-div1 {
 
@@ -346,14 +347,44 @@
 }
 .footer-div1-title {
     color: rgb(255, 255, 255);
-    text-align: left;
+    /* text-align: left; */
     font-size: 2.6rem;
     font-weight: 700;
 }
 .footer-div1-description {
     color: rgb(255, 255, 255);
-    text-align: left;
+    /* text-align: left; */
     font-size: 1.25rem;
     line-height: 25px;
 }
+.footer-div2{
+    color: white;
+    
+}
+.footer-div2 ul{
+   margin: 0;
+   padding: 0;
+}
+.footer-div2 ul li{
+list-style: none;
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+margin-bottom: 30px;
+}
+.footer-div2 h3{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer-div3 h3{
+color: rgb(255, 255, 255);
+font-size: 26px;
+font-weight: 700;
+}
+.footerIcon{
+    display: flex;
+    gap: 16px;
+}
+
 /* footer related styles end */
