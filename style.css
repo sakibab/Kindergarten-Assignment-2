@@ -13,19 +13,22 @@
 }
 
 .marquee-style {
-    color: black;
+    color: #272626;
+    background-color: rgb(242, 242, 242);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);  
     font-size: 25px;
     font-weight: 700;
     padding: 20px 0 20px 0;
-    cursor: pointer;
-}
-.apply-now {
-    font-size: 30px;
+    cursor:pointer;
+    margin-top: 40px;
+  }
+  
+  .REGISTER {
     font-weight: 900;
-    color: red;
-    background-color: black;
-    padding: 8px;
-}
+    font-size: 29px;
+    color: orange;
+    padding-left: 40px;
+  }
 
 /* shared styles start */
 .display-flex {
