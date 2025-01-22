@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .quicksand-fonts {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -21,6 +26,7 @@
     font-weight: 600;
     border: none;
     cursor: pointer;
+    
 }
 .btn-color1 {
     background: rgb(254, 163, 1);
@@ -38,6 +44,9 @@
     width: 18.1rem;
     height: 18.8rem;
 }
+/* .small-card .smallCardInner{
+    width: 100%;
+} */
 .btn-nov19 {
     width: 10.9rem;
     height: 3rem;
@@ -79,6 +88,9 @@
 /* shared styles end */
 
 /* header related styles start */
+.header-content *{
+    margin-bottom: 30px;
+}
 .header-bg {
     color: rgb(242, 242, 242) ;
 }
@@ -87,6 +99,7 @@
     max-width: 80%;
 }
 .header-title {
+    padding-top: 140px ;
     font-size: 3.8rem;
     font-weight: 700;
     color: rgb(17, 17, 17);
@@ -112,6 +125,9 @@
 /* header related styles end */
 
 /* nav related style start */
+.brand{
+    align-items: center;
+}
 .brand-title {
     color: rgb(32, 32, 32);
     font-size: 1.5rem;
@@ -154,6 +170,9 @@
     color: rgb(93, 88, 239);
     font-size: 1.25rem;
     font-weight: 500;
+}
+.list-icon{
+    display: none;
 }
 /* nav related styles end */
 
@@ -303,6 +322,7 @@
     padding-bottom: 2rem;
 }
 .story-main2 {
+    /* width: 55%; */
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
@@ -318,6 +338,143 @@
     text-align: center;
     padding-bottom: 3.75rem;
 }
+
+
+
+
+
+.section3{
+ 
+    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+  }
+  .sec3container{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  .sec3Title{
+    text-align: center;
+    margin: 110px 0px;
+    color: rgb(0, 0, 0);
+    font-size: 46px;
+    font-weight: 700;
+  }
+  .kidsLeftCardBody{
+    padding: 80px;
+    
+  }
+  .kidsLeftCardBody h3{
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38.35px;
+  }
+  .kidsLeftCardBody p{
+    color: rgb(102, 102, 102);
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+  }
+  .kidsphotoLeft{
+    width: 45%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px 16px 16px 16px ;
+  }
+  
+  .imageButtonBox{
+    position: relative;
+  }
+  .buttonDate{
+    bottom: -15px;
+    left: 70px;
+    position: absolute;
+    padding: 10px 19px;
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+  }
+  
+  .kidsphotoLeft .kidsLeftCard img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px ;
+  }
+  .kidphotoRight{
+    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .kidphotoRight .rightCard{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    /* position: relative; */
+    border-radius: 16px 16px 16px 16px ;
+  }
+  .kidphotoRight .rightCard img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px ;
+  }
+  .kidphotoRight .rightCard h3{
+    padding:48px 50px 30px 50px;
+    color: rgb(0, 0, 0);
+    font-size: 15.34px;
+    font-weight: 700;
+    line-height: 28.76px;
+    
+  }
+  
+  .shortImageButtonBox{
+    position: relative;
+  }
+  
+  .shortButtonDate{
+    bottom: -15px;
+    left: 40px;
+    position: absolute;
+    padding: 6px 19px;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+  }
+  .shortButtonDate2{
+    background: rgb(93, 88, 240);
+  }
+  .shortButtonDate3{
+    background: rgb(192, 88, 240);
+  }
+  .shortButtonDate4{
+    background: rgb(254, 163, 1);
+  }
+  
+  .viewAllButton{
+    text-align: center;
+    padding: 70px;
+  }
+  .viewAllButton button{
+    padding: 14px 40px;
+    border-radius: 12px;
+  background: rgb(17, 17, 17);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  }
+
+
+
+
+
+
+
 /* main related styles end */
 
 /* footer related styles start */
@@ -376,15 +533,126 @@ margin-bottom: 30px;
     color: rgb(255, 255, 255);
     font-size: 24px;
     font-weight: 700;
+    padding-bottom: 20px;
 }
 .footer-div3 h3{
 color: rgb(255, 255, 255);
 font-size: 26px;
 font-weight: 700;
+padding-bottom: 20px;
 }
 .footerIcon{
     display: flex;
     gap: 16px;
 }
-
+.footer-div1-description{
+    padding-top: 20px;
+}
 /* footer related styles end */
+
+
+/* responsive start */
+
+@media (max-width: 576px) {
+.brand-title{
+    display: none;
+}
+.nav-links{
+    display: none;
+}
+.btn-color1{
+    display: none;
+}
+
+.list-icon{
+    display: block;
+    width: 10%;
+}
+.navbar{
+    padding: 20px 0px 20px 0px;
+}
+
+.nav{
+    border-bottom: 1px solid orange;
+}
+
+/* section1 */
+.header-section{
+    flex-direction: column-reverse;
+}
+.header-img{
+    width: 100%;
+    margin: 0 auto;
+}
+.header-content{
+    width: 100%;
+}
+
+.header-title{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 3rem;
+}
+.header-description{
+    text-align: center;
+    width: 100%;
+}
+.header-description br{
+    display: none;
+}
+.mainbutton{
+    text-align: center;
+
+}
+
+/* section2 */
+
+.card-container{
+    flex-direction: column;
+   width: 100%;
+    margin: 0 auto;
+}
+.card{
+    width: 80%;
+    margin: 0 auto;
+}
+.round-btn-container{
+    display: none  ;
+}
+.story-main1{
+    display: none;
+}
+
+/* mine */
+
+.kidsphotoLeft{
+    display: none;
+  }
+  .kidphotoRight{
+    width: 100%;
+  }
+  .sec3container{
+    width: 95%;
+  }
+  .kidphotoRight .rightCard h3{
+    padding:38px 20px 20px 20px;
+    font-size: 13px;
+    
+  }
+  .shortButtonDate{
+    padding: 4px 15px;
+    font-size: 13.34px;
+  }
+  
+
+/* mine */
+
+
+.footer-section{
+    flex-direction: column;
+    gap: 40px;
+}
+.footer-div1, .footer-div2, .footer-div3{
+  padding-left: 40px;
+}
+}
